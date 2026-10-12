@@ -1,0 +1,31 @@
+def mysplit()
+│
+├── if empty/whitespace
+│   └── return []
+│
+├── create variables
+│
+├── for x in strng
+│   │
+│   ├── if inword
+│   │   │
+│   │   ├── if not whitespace
+│   │   │   └── build word
+│   │   │
+│   │   └── else
+│   │       ├── append word
+│   │       └── inword = False
+│   │
+│   └── else
+│       │
+│       ├── if not whitespace
+│       │   ├── inword = True
+│       │   └── word = x
+│       │
+│       └── else
+│           └── pass
+│
+├── if inword
+│   └── append final word
+│
+└── return lst
